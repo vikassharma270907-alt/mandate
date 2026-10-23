@@ -51,7 +51,8 @@ Last local run: **120 tests, OK, ~2 seconds**.
 | Live transactions response mapping | Parser is defensive but untested | UNCONFIRMED |
 | Live LLM extraction path | Requires an OpenAI-compatible endpoint and key; offline demo uses a deterministic stand-in | UNCONFIRMED |
 | Video recording | Script exists, recording not made | PLANNED |
-| Hosted repository link | Public GitHub repository: https://github.com/vikassharma270907-alt/mandate | DONE |
+| Hosted repository link | Public GitHub repositories: https://github.com/vikassharma270907-alt/mandate and https://github.com/vikassharma270907-alt/mandate-vercel | DONE |
+| Hosted Vercel demo | https://mandate-vercel.vercel.app — full fake-sandbox walkthrough passed against the deployed function | VERIFIED (deployed) |
 
 The one-hour plan to close these is [`SANDBOX_RUNBOOK.md`](SANDBOX_RUNBOOK.md). Until it is executed and evidence captured, do not claim a live sandbox demo.
 
@@ -97,4 +98,5 @@ The one-hour plan to close these is [`SANDBOX_RUNBOOK.md`](SANDBOX_RUNBOOK.md). 
 | Spend limits in card controls | VERIFIED IN CODE (fake); live UNCONFIRMED |
 | Working demo on the sandbox | UNCONFIRMED |
 | Video under 5 minutes | PLANNED (4:45 script) |
-| Repository with setup instructions | DONE (local) |
+| Repository with setup instructions | DONE (public GitHub repositories) |
+| Hosted Vercel demo | DONE — https://mandate-vercel.vercel.app |

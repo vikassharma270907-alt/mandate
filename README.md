@@ -4,6 +4,8 @@
 
 **Repository:** [github.com/vikassharma270907-alt/mandate](https://github.com/vikassharma270907-alt/mandate)
 
+**Live demo:** [mandate-vercel.vercel.app](https://mandate-vercel.vercel.app) · **Vercel repo:** [mandate-vercel](https://github.com/vikassharma270907-alt/mandate-vercel)
+
 A founder needs to choose how to pay a SaaS bill: monthly or annual. Annual is cheaper, but writing the full prepayment can break the cash reserve before a customer receipt lands. A language model is useful for reading the vendor quote, but it must never decide money, set a card limit, or hold credentials.
 
 Mandate separates those jobs:
@@ -327,6 +329,7 @@ Additional suites cover passport seals and precedence, card controls, fake-card 
 | Isolate simulation calls | `sandbox.py` is the only `/api/v1` caller; fake adapter for demo/tests | **VERIFIED IN CODE (fake); live UNCONFIRMED** |
 | Spend limits live in card controls | Controls derived only from a valid passport and enforced by the fake card | **VERIFIED IN CODE (fake); live UNCONFIRMED** |
 | Working demo on the sandbox | Offline fake demo works today; live sandbox run pending credentials and schema check | **UNCONFIRMED** |
+| Hosted demo | Vercel stateless deployment at [mandate-vercel.vercel.app](https://mandate-vercel.vercel.app); full fake-sandbox walkthrough verified against the deployed function | **DONE** |
 | Video walkthrough under 5 minutes | Script provided at [`docs/VIDEO_SCRIPT.md`](docs/VIDEO_SCRIPT.md), target 4:45 | **PLANNED** |
 | Repository link with setup instructions | [github.com/vikassharma270907-alt/mandate](https://github.com/vikassharma270907-alt/mandate) plus this README | **DONE** |
 
