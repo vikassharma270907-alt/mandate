@@ -1,0 +1,131 @@
+{
+  "decision": "PROPOSE_MONTHLY",
+  "reason": "Annual billing (19680.00 USD at week 0) drops the confirmed-cash balance to a minimum of 12320.00 USD at week 0, breaching the 15000.00 USD reserve floor by 2680.00 USD. Monthly billing (3 payments of 2000.00 USD at weeks 0, 4, and 8) keeps the confirmed-cash minimum at 26000.00 USD at week 8, at or above the 15000.00 USD reserve floor. Annual billing saves 4320.00 USD over twelve 4-week monthly cycles (24000.00 USD). Annual billing is not cash-safe, so the engine selects PROPOSE_MONTHLY.",
+  "policy_version": "mandate-policy/2.2",
+  "currency": "USD",
+  "available_balance": "32000.00",
+  "reserve_floor": "15000.00",
+  "horizon_weeks": 8,
+  "annual_saving": "4320.00",
+  "annual_cash_safe": false,
+  "annual_confirmed_minimum_balance": "12320.00",
+  "annual_confirmed_minimum_week": 0,
+  "annual_with_expected_minimum_balance": "12320.00",
+  "annual_with_expected_minimum_week": 0,
+  "annual_ending_balance": "12320.00",
+  "monthly_cash_safe": true,
+  "monthly_confirmed_minimum_balance": "26000.00",
+  "monthly_confirmed_minimum_week": 8,
+  "monthly_with_expected_minimum_balance": "28000.00",
+  "monthly_with_expected_minimum_week": 4,
+  "monthly_ending_balance": "26000.00",
+  "annual_payments": [
+    {
+      "week": 0,
+      "amount": "19680.00"
+    }
+  ],
+  "monthly_payments": [
+    {
+      "week": 0,
+      "amount": "2000.00"
+    },
+    {
+      "week": 4,
+      "amount": "2000.00"
+    },
+    {
+      "week": 8,
+      "amount": "2000.00"
+    }
+  ],
+  "annual_confirmed_trajectory": [
+    {
+      "week": 0,
+      "balance": "12320.00"
+    },
+    {
+      "week": 1,
+      "balance": "12320.00"
+    },
+    {
+      "week": 2,
+      "balance": "12320.00"
+    },
+    {
+      "week": 3,
+      "balance": "12320.00"
+    },
+    {
+      "week": 4,
+      "balance": "12320.00"
+    },
+    {
+      "week": 5,
+      "balance": "12320.00"
+    },
+    {
+      "week": 6,
+      "balance": "12320.00"
+    },
+    {
+      "week": 7,
+      "balance": "12320.00"
+    },
+    {
+      "week": 8,
+      "balance": "12320.00"
+    }
+  ],
+  "monthly_confirmed_trajectory": [
+    {
+      "week": 0,
+      "balance": "30000.00"
+    },
+    {
+      "week": 1,
+      "balance": "30000.00"
+    },
+    {
+      "week": 2,
+      "balance": "30000.00"
+    },
+    {
+      "week": 3,
+      "balance": "30000.00"
+    },
+    {
+      "week": 4,
+      "balance": "28000.00"
+    },
+    {
+      "week": 5,
+      "balance": "28000.00"
+    },
+    {
+      "week": 6,
+      "balance": "28000.00"
+    },
+    {
+      "week": 7,
+      "balance": "28000.00"
+    },
+    {
+      "week": 8,
+      "balance": "26000.00"
+    }
+  ],
+  "assumptions": {
+    "horizon": "inclusive 8-week horizon (weeks 0 to 8)",
+    "monthly_cadence": "4-week cadence as an approximation of calendar months",
+    "conservative_case": "expected inflows excluded; expected outflows always counted",
+    "within_week_order": "outflows applied and minimum checked before inflows",
+    "safe_balance": "confirmed minimum greater than or equal to the floor",
+    "available_balance_source": "wallet available_amount, not total_amount",
+    "currency_scope": "USD only in the sandbox",
+    "merchant_category_scope": "MCC 5734 only in the sandbox",
+    "synthetic_demo_data": true
+  },
+  "live_plan_decision": "NOT_EVALUATED",
+  "live_plan": null
+}
