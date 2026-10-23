@@ -2,6 +2,8 @@
 
 **Target runtime: 4:45.** Screen recording, 1080p, no live sandbox claim. If the live sandbox has not been verified, say so on screen.
 
+**Live demo:** https://mandate-vercel.vercel.app
+
 Open with the dashboard already running:
 
 ```powershell
