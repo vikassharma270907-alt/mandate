@@ -51,7 +51,7 @@ Last local run: **120 tests, OK, ~2 seconds**.
 | Live transactions response mapping | Parser is defensive but untested | UNCONFIRMED |
 | Live LLM extraction path | Requires an OpenAI-compatible endpoint and key; offline demo uses a deterministic stand-in | UNCONFIRMED |
 | Video recording | Script exists, recording not made | PLANNED |
-| Hosted repository link | Local repository prepared; remote not configured | PLANNED |
+| Hosted repository link | Public GitHub repository: https://github.com/vikassharma270907-alt/mandate | DONE |
 
 The one-hour plan to close these is [`SANDBOX_RUNBOOK.md`](SANDBOX_RUNBOOK.md). Until it is executed and evidence captured, do not claim a live sandbox demo.
 

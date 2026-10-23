@@ -137,7 +137,7 @@ Optionally click **Approve & issue card** and try the annual card, showing it ap
 **End card:**
 
 ```text
-github.com/<your-org>/mandate
+github.com/vikassharma270907-alt/mandate
 python -m mandate serve
 Sandbox prototype · synthetic data · not production banking software
 ```
